@@ -16,6 +16,7 @@
 		28155B3C26680820001C354F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B3B26680820001C354F /* OnboardingView.swift */; };
 		28155B4026680CE2001C354F /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B3F26680CE2001C354F /* FruitModel.swift */; };
 		28155B4526680FF4001C354F /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B4426680FF4001C354F /* FruitData.swift */; };
+		28155B4A26684C8A001C354F /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B4926684C8A001C354F /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		28155B3B26680820001C354F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		28155B3F26680CE2001C354F /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		28155B4426680FF4001C354F /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		28155B4926684C8A001C354F /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				28155B342667FF63001C354F /* FruitCardView.swift */,
 				28155B38266803D6001C354F /* StartButtonView.swift */,
+				28155B4926684C8A001C354F /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				28155B4526680FF4001C354F /* FruitData.swift in Sources */,
 				28155B352667FF63001C354F /* FruitCardView.swift in Sources */,
+				28155B4A26684C8A001C354F /* FruitRowView.swift in Sources */,
 				28155B39266803D6001C354F /* StartButtonView.swift in Sources */,
 				28155B222667F8A0001C354F /* ContentView.swift in Sources */,
 				28155B3C26680820001C354F /* OnboardingView.swift in Sources */,

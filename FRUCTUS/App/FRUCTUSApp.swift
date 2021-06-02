@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct FRUCTUSApp: App {
+    
+    //MARK: - AppStorage of settings booleans
+    
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            if isOnboarding {
+                OnboardingView()
+            } else {
+                ContentView()
+            }
         }
     }
 }
