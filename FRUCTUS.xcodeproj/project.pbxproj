@@ -21,6 +21,7 @@
 		28155B5526686001001C354F /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B5426686001001C354F /* FruitHeaderView.swift */; };
 		28155B582668631B001C354F /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B572668631B001C354F /* SourceLinkView.swift */; };
 		28155B5C26686DAC001C354F /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B5B26686DAC001C354F /* FruitNutrientsView.swift */; };
+		28155B6026687495001C354F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28155B5F26687495001C354F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		28155B5426686001001C354F /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		28155B572668631B001C354F /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		28155B5B26686DAC001C354F /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		28155B5F26687495001C354F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				28155B212667F8A0001C354F /* ContentView.swift */,
 				28155B3B26680820001C354F /* OnboardingView.swift */,
 				28155B5126685D21001C354F /* FruitDetailView.swift */,
+				28155B5F26687495001C354F /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				28155B3C26680820001C354F /* OnboardingView.swift in Sources */,
 				28155B4026680CE2001C354F /* FruitModel.swift in Sources */,
 				28155B202667F8A0001C354F /* FRUCTUSApp.swift in Sources */,
+				28155B6026687495001C354F /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
