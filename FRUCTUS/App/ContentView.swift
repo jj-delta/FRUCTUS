@@ -41,6 +41,8 @@ struct ContentView: View {
                     }
             )
         } //: NAVIGATION
+        // NO SIDEBARS AND SLIDING PANELS ON THE RIGHT SCREEN
+        .navigationViewStyle(StackNavigationViewStyle())
             
     }
 }
